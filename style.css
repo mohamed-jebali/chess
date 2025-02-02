@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
+    flex-direction: column;
+}
+
+
+#game{
+    display: flex;
+}
+
+.square{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.black{
+    background-color: black;
+}
+
+#knight{
+    height: 100%;
+}
+
+#info{
+    height: 150px;
+}
